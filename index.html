@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="ms">
 <head>
-  <style>
-    body { margin: 0; padding: 0; }
-    iframe { width: 100%; height: 100vh; border: none; }
-  </style>
+    <meta charset="UTF-8">
+    
+    <!-- Tag Viewport ini SANGAT PENTING untuk paparan Telefon Pintar (Mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>Sistem KPM</title>
+    
+    <style>
+        /* Buang semua ruang putih di tepi skrin */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Halang scrollbar berganda pada PC */
+            background-color: #f8f9fa;
+            -webkit-overflow-scrolling: touch; /* Sokongan kelancaran scroll untuk pengguna iPhone/iOS */
+        }
+        
+        /* Tetapan Iframe supaya responsif 100% pada semua saiz skrin */
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw; /* 100% lebar skrin */
+            height: 100vh; /* 100% tinggi skrin */
+            border: none;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-  <iframe src="https://script.google.com/macros/s/AKfycbw09r74u1SJI8OLxh_vp9t8UtbLEb8jCHxCA_hq5R8p_XeP1UG8bVNMFY8-MSriIFtO/exec"></iframe>
+
+    <!-- Pautan sistem GAS MOE anda -->
+    <iframe src="https://script.google.com/macros/s/AKfycbw09r74u1SJI8OLxh_vp9t8UtbLEb8jCHxCA_hq5R8p_XeP1UG8bVNMFY8-MSriIFtO/exec" allowfullscreen="true" allow="autoplay; fullscreen"></iframe>
+
 </body>
 </html>
-
